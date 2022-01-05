@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="69e6dbcf385244e4acb5e8bf60f4818a" Name="Diagram1" ZoomLevel="73">
+        <EntityTypeShape EntityType="busticketbookingModel.location" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="busticketbookingModel.location2" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="busticketbookingModel.recommend" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="busticketbookingModel.recommend_info" Width="1.5" PointX="5.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="busticketbookingModel.reservation" Width="1.5" PointX="7.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="busticketbookingModel.schedule" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="busticketbookingModel.user" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="busticketbookingModel.FK_location2_location_no" ManuallyRouted="false" />
+        <AssociationConnector Association="busticketbookingModel.FK_recommend_location" ManuallyRouted="false" />
+        <AssociationConnector Association="busticketbookingModel.FK_schedule_aln" ManuallyRouted="false" />
+        <AssociationConnector Association="busticketbookingModel.FK_schedule_dln" ManuallyRouted="false" />
+        <AssociationConnector Association="busticketbookingModel.fk_recommend_info" ManuallyRouted="false" />
+        <AssociationConnector Association="busticketbookingModel.FK_reservation_schedule" ManuallyRouted="false" />
+        <AssociationConnector Association="busticketbookingModel.FK_reservation_user" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
